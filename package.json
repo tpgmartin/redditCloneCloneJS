@@ -1,0 +1,28 @@
+{
+  "name": "redditcloneclonejs",
+  "version": "0.0.1",
+  "description": "Reddit clone in JavaScript",
+  "main": "./server/server",
+  "scripts": {
+    "dev": "supervisor ./server/server",
+    "test": "eslint ./server/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpgmartin/redditCloneCloneJS.git"
+  },
+  "author": "Tom Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tpgmartin/redditCloneCloneJS/issues"
+  },
+  "homepage": "https://github.com/tpgmartin/redditCloneCloneJS#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.2.0",
+    "supervisor": "^0.9.1"
+  }
+}
